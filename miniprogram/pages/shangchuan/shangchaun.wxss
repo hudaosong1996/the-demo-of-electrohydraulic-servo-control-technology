@@ -1,0 +1,5 @@
+/* pages/shangchuan/shangchaun.wxss */
+.batn
+{
+  margin: 50px;
+}

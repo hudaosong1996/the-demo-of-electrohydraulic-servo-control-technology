@@ -1,0 +1,24 @@
+<!--pages/register/register.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ username }}"
+    required
+    clearable
+    label="姓名"
+    icon="question-o"
+    placeholder="请输入姓名"
+    bind:click-icon="onClickIcon"
+  />
+
+  <van-field
+    value="{{ password }}"
+    type="password"
+    label="学号"
+    placeholder="请输入学号"
+    required
+    border="{{ false }}"
+  />
+  <view style="padding:0px 10rpx;">
+  <van-button type="primary"class='batn' block>注册</van-button>
+  </view>
+</van-cell-group>

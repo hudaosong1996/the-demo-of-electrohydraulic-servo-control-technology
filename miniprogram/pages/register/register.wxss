@@ -1,0 +1,5 @@
+/* pages/register/register.wxss */
+.batn
+{
+  margin: 50px;
+}

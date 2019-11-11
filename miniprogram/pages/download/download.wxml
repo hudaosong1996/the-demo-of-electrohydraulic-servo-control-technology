@@ -1,0 +1,11 @@
+<!--pages/download/download.wxml-->
+<block wx:for="{{filelist}}" wx:key="{{filelist._id}}">
+<van-card
+  title="{{item.name}}"
+  centered
+>
+  <view slot="footer">
+    <van-button size="mini" bind:click="downloadfile"data-testId="{{item.file}}">在线预览</van-button>
+  </view>
+</van-card>
+</block>

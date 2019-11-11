@@ -1,0 +1,5 @@
+/* pages/admin/admin.wxss */
+.batn
+{
+  margin: 50px;
+}

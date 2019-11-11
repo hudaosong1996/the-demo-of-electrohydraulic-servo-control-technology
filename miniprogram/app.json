@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/download/download",
+    "pages/register/register",
+    "pages/admin/admin",
+    "pages/shangchuan/shangchaun",
+    "pages/discuss/discuss",
+    "pages/publish/publish",
+    "pages/homeDetail/homeDetail",
+    "pages/replay/replay"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "电液伺服控制技术",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/nav/index.png",
+      "selectedIconPath": "images/nav/index-active.png"
+    },
+    {
+      "pagePath": "pages/download/download",
+      "text": "课件",
+      "iconPath": "images/nav/menu.png",
+      "selectedIconPath": "images/nav/menu-active.png"
+    },
+    {
+        "pagePath": "pages/discuss/discuss",
+        "text": "课程讨论",
+        "iconPath": "images/nav/discuss.png",
+        "selectedIconPath": "images/nav/discuss-active.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/nav/user.png",
+      "selectedIconPath": "images/nav/user-active.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
